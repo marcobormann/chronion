@@ -22,8 +22,17 @@ The main window shows all your active categories for the selected day. Each row 
 - **+/- min** — enter a positive number to add minutes, or a negative number to subtract them. Press Return to apply. This is useful when you forgot to start the timer, or tracked too much.
 
 ![Timer ready](screenshots/timer-ready.png)
+
+For running timers the button changes from **Start** to **Stop**
+
 ![Timer running](screenshots/timer-running.png)
+
+You can minutes if you forgot to start the timer.
+
 ![Adding minutes](screenshots/adding-minutes.png)
+
+And you can substract minutes if you forgot to stop it.
+
 ![Subtracting minutes](screenshots/subtracting-minutes.png)
 
 Use the date stepper in the top-left corner to navigate to any previous day and review or adjust its data.
@@ -34,9 +43,10 @@ Use the date stepper in the top-left corner to navigate to any previous day and 
 
 Click on a category row to open the session detail view. It shows each individual session for that day — tracked sessions with their time range, manually added time, and manual removals — along with the net total at the top.
 
+![Session detail](screenshots/session-detail.png)
+
 You can **invalidate** any session by toggling it on. Invalidated sessions are shown with a strikethrough and excluded from the total. Toggle them back off to restore them.
 
-![Session detail](screenshots/session-detail.png)
 ![Session invalidated](screenshots/session-invalidated.png)
 
 ---
